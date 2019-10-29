@@ -1,0 +1,15 @@
+public class latihancontinue1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        for (char predikat = 'A'; predikat < 'J'; predikat++) {
+  if (predikat == 'F') {
+    continue;
+  }
+  System.out.println(predikat);
+}
+    }
+    
+}
